@@ -17,6 +17,20 @@ up '/etc/openvpn/update-resolv.conf'
 down '/etc/openvpn/update-resolv.conf'
 ```
 
+# Prevent updating the resolv.conf
+
+Some mechanism like dhcp-clients might modify the resolv.conf. To prevent this it is possible to change the variable "IMMUTEABLE" to 1. This will simply call: 
+```
+chattr +i /etc/resolv.conf
+```
+
+The down-parameter will execute:
+```
+chattr -i /etc/resolv.conf
+```
+
+
+**Be aware that this file will be immuteable if openvpn isn't shut down properly.**
 # License
 
 GPL
