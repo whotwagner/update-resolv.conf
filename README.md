@@ -1,7 +1,8 @@
 # update-resolv.conf
 
 This script updates the /etc/resolv.conf using the configuration parameters that
-are pushed by a openvpn-server.
+are pushed by a openvpn-server. It is a modified version of the script update-resolv-conf
+that ships with openvpn.
 
 # Installation
 
