@@ -6,7 +6,7 @@ that ships with openvpn.
 
 # Installation
 
-Just copy update-resolv.conf into the directory /etc/openvpn
+Just copy update-resolv.conf into the directory /etc/openvpn and modify the permissions.
 
 # Configuration
 
