@@ -1,3 +1,6 @@
+> [!WARNING]  
+> This repository has been moved to [https://codeberg.org/whotwagner/update-resolv.conf](https://codeberg.org/whotwagner/update-resolv.conf). Please visit the new location for the latest updates.
+
 # update-resolv.conf
 
 This script updates the /etc/resolv.conf using the configuration parameters that
